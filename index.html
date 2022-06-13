@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <div class="main">
+
+        <div class="imgs">
+
+
+            <div class="barbecue">
+
+                <img src="img/churrasqueira.png">
+
+            </div>
+            
+
+        </div>
+
+        <div class="folder">
+
+            <div class="title">
+
+                <img src="img/titulo.png" width="300px">
+
+            </div>
+
+            <div class="forms">
+                
+
+                <div>
+
+                    <label> Quantidade de Adultos </label>
+                    <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+                
+                </div>
+
+                <div> 
+                    
+                    <label> Quantidade de Crianças </label>
+                    <input id="criancas" name="criancas" type="number" placeholder="Crianças"> 
+
+                </div>
+
+                <div>   
+
+                    <label> Tempo de Churrasco </label>
+                    <input id="tempo" name="tempo" type="number" placeholder="Tempo (horas)">
+
+                </div>
+
+                <div>
+
+                    <button class="btn" onclick="calcular()" >Calcular</button>
+
+                </div>
+
+                <div id="resultado">                     
+
+                    
+
+                </div>
+            </div>
+
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>

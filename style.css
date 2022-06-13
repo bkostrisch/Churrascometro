@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+
+}
+
+html, body {
+    height: 100%;
+    background-image: url(img/Background.png);
+
+}
+
+input {
+
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none; 
+    text-align: center;
+   
+
+}
+
+.main{
+
+    display: flex;
+
+
+}
+
+.forms {
+
+    width: 60%;
+    margin: 10% auto auto auto;
+    
+
+}
+
+.imgs {
+
+    display: flex;
+    width: 50%;
+
+}
+
+.folder{
+
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px #8c7ca6;
+    width: 30%;    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 0px 0px 50px;
+    margin-left: auto;
+    text-align: center;
+    background:#c2ace5;
+    overflow: scroll;
+
+}
+
+.btn{
+
+    font-size: 20px;
+    width: 100%;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: #8c7ca6;
+    border: none;
+    margin-top: 15px;
+
+}
+
+.btn:hover {
+
+
+    background-color: #f3ecff;
+    color: #8c7ca6;
+
+}
+
+.title{
+
+    margin-top: 100px;
+
+}
+
+.barbecue {
+    
+    margin-left: auto;
+    margin-top: 20%;
+
+}
+
+#resultado{
+
+    
+    margin-top: 55px;
+    padding: 10px;
+
+}
+
+.result{
+
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+p {
+
+    margin-left: 15px;
+
+}
